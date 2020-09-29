@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/OverlayScrollbars.css">
+</head>
+<body>
+    <div id="demo" class="overlay-scroll" style="width: 400px; height: 300px">
+        <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+    </div>
+
+    <script src="./js/OverlayScrollbars.js"></script>
+    <script>
+        var instance2 = OverlayScrollbars(document.getElementById('demo'), {
+            className       : "os-theme-light",
+            sizeAutoCapable : true,
+            paddingAbsolute : true 
+        });
+    </script>
+</body>
+</html>
